@@ -1,26 +1,26 @@
 <?php
 
-namespace QuantaQuirk\Ignition;
+namespace QuantaForge\Ignition;
 
 use ArrayObject;
 use ErrorException;
-use QuantaQuirk\FlareClient\Context\BaseContextProviderDetector;
-use QuantaQuirk\FlareClient\Context\ContextProviderDetector;
-use QuantaQuirk\FlareClient\Enums\MessageLevels;
-use QuantaQuirk\FlareClient\Flare;
-use QuantaQuirk\FlareClient\FlareMiddleware\AddDocumentationLinks;
-use QuantaQuirk\FlareClient\FlareMiddleware\AddSolutions;
-use QuantaQuirk\FlareClient\FlareMiddleware\FlareMiddleware;
-use QuantaQuirk\FlareClient\Report;
-use QuantaQuirk\Ignition\Config\IgnitionConfig;
-use QuantaQuirk\Ignition\Contracts\HasSolutionsForThrowable;
-use QuantaQuirk\Ignition\Contracts\SolutionProviderRepository as SolutionProviderRepositoryContract;
-use QuantaQuirk\Ignition\ErrorPage\ErrorPageViewModel;
-use QuantaQuirk\Ignition\ErrorPage\Renderer;
-use QuantaQuirk\Ignition\Solutions\SolutionProviders\BadMethodCallSolutionProvider;
-use QuantaQuirk\Ignition\Solutions\SolutionProviders\MergeConflictSolutionProvider;
-use QuantaQuirk\Ignition\Solutions\SolutionProviders\SolutionProviderRepository;
-use QuantaQuirk\Ignition\Solutions\SolutionProviders\UndefinedPropertySolutionProvider;
+use QuantaForge\FlareClient\Context\BaseContextProviderDetector;
+use QuantaForge\FlareClient\Context\ContextProviderDetector;
+use QuantaForge\FlareClient\Enums\MessageLevels;
+use QuantaForge\FlareClient\Flare;
+use QuantaForge\FlareClient\FlareMiddleware\AddDocumentationLinks;
+use QuantaForge\FlareClient\FlareMiddleware\AddSolutions;
+use QuantaForge\FlareClient\FlareMiddleware\FlareMiddleware;
+use QuantaForge\FlareClient\Report;
+use QuantaForge\Ignition\Config\IgnitionConfig;
+use QuantaForge\Ignition\Contracts\HasSolutionsForThrowable;
+use QuantaForge\Ignition\Contracts\SolutionProviderRepository as SolutionProviderRepositoryContract;
+use QuantaForge\Ignition\ErrorPage\ErrorPageViewModel;
+use QuantaForge\Ignition\ErrorPage\Renderer;
+use QuantaForge\Ignition\Solutions\SolutionProviders\BadMethodCallSolutionProvider;
+use QuantaForge\Ignition\Solutions\SolutionProviders\MergeConflictSolutionProvider;
+use QuantaForge\Ignition\Solutions\SolutionProviders\SolutionProviderRepository;
+use QuantaForge\Ignition\Solutions\SolutionProviders\UndefinedPropertySolutionProvider;
 use Throwable;
 
 class Ignition
@@ -292,8 +292,8 @@ class Ignition
     }
 
     /**
-     * This is the main entrypoint for quantaquirk-ignition. It only renders the exception.
-     * Sending the report to Flare is handled in the quantaquirk-ignition log handler.
+     * This is the main entrypoint for quantaforge-ignition. It only renders the exception.
+     * Sending the report to Flare is handled in the quantaforge-ignition log handler.
      */
     public function renderException(Throwable $throwable, ?Report $report = null): void
     {

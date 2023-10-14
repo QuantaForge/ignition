@@ -1,7 +1,7 @@
 <?php
 
-use QuantaQuirk\Ignition\Ignition;
-use QuantaQuirk\Ignition\Tests\TestClasses\Models\Car;
+use QuantaForge\Ignition\Ignition;
+use QuantaForge\Ignition\Tests\TestClasses\Models\Car;
 
 include('../../../vendor/autoload.php');
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Config;
+namespace QuantaForge\Ignition\Config;
 
-use QuantaQuirk\Ignition\Contracts\ConfigManager;
+use QuantaForge\Ignition\Contracts\ConfigManager;
 use Throwable;
 
 class FileConfigManager implements ConfigManager

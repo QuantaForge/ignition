@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Tests\Mocks;
+namespace QuantaForge\Ignition\Tests\Mocks;
 
-use QuantaQuirk\FlareClient\Flare;
-use QuantaQuirk\FlareClient\Report;
+use QuantaForge\FlareClient\Flare;
+use QuantaForge\FlareClient\Report;
 
 class FakeFlare extends Flare
 {

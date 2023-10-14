@@ -1,7 +1,7 @@
 <?php
 
-use QuantaQuirk\Ignition\Ignition;
-use QuantaQuirk\Ignition\Tests\TestClasses\ClassWithSyntaxError;
+use QuantaForge\Ignition\Ignition;
+use QuantaForge\Ignition\Tests\TestClasses\ClassWithSyntaxError;
 
 include('../../../vendor/autoload.php');
 

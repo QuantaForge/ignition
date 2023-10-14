@@ -1,20 +1,20 @@
 <?php
 
-namespace QuantaQuirk\Ignition\ErrorPage;
+namespace QuantaForge\Ignition\ErrorPage;
 
-use QuantaQuirk\FlareClient\Report;
-use QuantaQuirk\FlareClient\Truncation\ReportTrimmer;
-use QuantaQuirk\Ignition\Config\IgnitionConfig;
-use QuantaQuirk\Ignition\Contracts\Solution;
-use QuantaQuirk\Ignition\Solutions\SolutionTransformer;
+use QuantaForge\FlareClient\Report;
+use QuantaForge\FlareClient\Truncation\ReportTrimmer;
+use QuantaForge\Ignition\Config\IgnitionConfig;
+use QuantaForge\Ignition\Contracts\Solution;
+use QuantaForge\Ignition\Solutions\SolutionTransformer;
 use Throwable;
 
 class ErrorPageViewModel
 {
     /**
      * @param \Throwable|null $throwable
-     * @param \QuantaQuirk\Ignition\Config\IgnitionConfig $ignitionConfig
-     * @param \QuantaQuirk\FlareClient\Report $report
+     * @param \QuantaForge\Ignition\Config\IgnitionConfig $ignitionConfig
+     * @param \QuantaForge\FlareClient\Report $report
      * @param array<int, Solution> $solutions
      * @param string|null $solutionTransformerClass
      */

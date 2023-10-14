@@ -1,8 +1,8 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Tests\TestClasses\ContextProviderDetector;
+namespace QuantaForge\Ignition\Tests\TestClasses\ContextProviderDetector;
 
-use QuantaQuirk\FlareClient\Context\ContextProvider;
+use QuantaForge\FlareClient\Context\ContextProvider;
 
 class DummyContextProvider implements ContextProvider
 {

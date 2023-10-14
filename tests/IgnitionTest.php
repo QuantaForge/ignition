@@ -1,10 +1,10 @@
 <?php
 
-use QuantaQuirk\Ignition\Ignition;
-use QuantaQuirk\Ignition\Tests\TestClasses\ContextProviderDetector\DummyContextProviderDetector;
-use QuantaQuirk\Ignition\Tests\TestClasses\DummyFlareMiddleware;
-use QuantaQuirk\Ignition\Tests\TestClasses\SolutionProviders\AlwaysFalseSolutionProvider;
-use QuantaQuirk\Ignition\Tests\TestClasses\SolutionProviders\AlwaysTrueSolutionProvider;
+use QuantaForge\Ignition\Ignition;
+use QuantaForge\Ignition\Tests\TestClasses\ContextProviderDetector\DummyContextProviderDetector;
+use QuantaForge\Ignition\Tests\TestClasses\DummyFlareMiddleware;
+use QuantaForge\Ignition\Tests\TestClasses\SolutionProviders\AlwaysFalseSolutionProvider;
+use QuantaForge\Ignition\Tests\TestClasses\SolutionProviders\AlwaysTrueSolutionProvider;
 
 beforeEach(function () {
     $this->ignition = Ignition::make()
@@ -46,11 +46,11 @@ test('custom solution providers can be added as instances', function () {
 test('a documentation link resolver can be added', function () {
     $report = $this->ignition
         ->resolveDocumentationLink(
-            fn (Throwable $throwable) => 'https://quantaquirk.be/docs'
+            fn (Throwable $throwable) => 'https://quantaforge.be/docs'
         )
         ->handleException(new Exception('hey'));
 
-    expect($report->toArray()['documentation_links'])->toEqual(['https://quantaquirk.be/docs']);
+    expect($report->toArray()['documentation_links'])->toEqual(['https://quantaforge.be/docs']);
 });
 
 test('multiple documentation resolvers can return both arrays and strings', function () {

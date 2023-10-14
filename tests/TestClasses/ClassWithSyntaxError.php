@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Tests\TestClasses;
+namespace QuantaForge\Ignition\Tests\TestClasses;
 
 class ClassWithSyntaxError
 {

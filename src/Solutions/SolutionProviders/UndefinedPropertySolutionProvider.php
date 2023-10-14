@@ -1,13 +1,13 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Solutions\SolutionProviders;
+namespace QuantaForge\Ignition\Solutions\SolutionProviders;
 
 use ErrorException;
-use QuantaQuirk\Support\Collection;
+use QuantaForge\Support\Collection;
 use ReflectionClass;
 use ReflectionProperty;
-use QuantaQuirk\Ignition\Contracts\BaseSolution;
-use QuantaQuirk\Ignition\Contracts\HasSolutionsForThrowable;
+use QuantaForge\Ignition\Contracts\BaseSolution;
+use QuantaForge\Ignition\Contracts\HasSolutionsForThrowable;
 use Throwable;
 
 class UndefinedPropertySolutionProvider implements HasSolutionsForThrowable

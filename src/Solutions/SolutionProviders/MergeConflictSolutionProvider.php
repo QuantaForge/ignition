@@ -1,11 +1,11 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Solutions\SolutionProviders;
+namespace QuantaForge\Ignition\Solutions\SolutionProviders;
 
-use QuantaQuirk\Support\Str;
+use QuantaForge\Support\Str;
 use ParseError;
-use QuantaQuirk\Ignition\Contracts\BaseSolution;
-use QuantaQuirk\Ignition\Contracts\HasSolutionsForThrowable;
+use QuantaForge\Ignition\Contracts\BaseSolution;
+use QuantaForge\Ignition\Contracts\HasSolutionsForThrowable;
 use Throwable;
 
 class MergeConflictSolutionProvider implements HasSolutionsForThrowable

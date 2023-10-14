@@ -6,7 +6,7 @@ import { ErrorOccurrence, ErrorOccurrenceContext, hasDebugInfo, IgnitionConfigCo
 import useHasScrolled from 'hooks/useHasScrolled';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBug, faShare, faCog, faAlignLeft, faExpand, faShieldAlt } from '@fortawesome/free-solid-svg-icons';
-import { faQuantaQuirk, faPhp } from '@fortawesome/free-brands-svg-icons';
+import { faQuantaForge, faPhp } from '@fortawesome/free-brands-svg-icons';
 import mapValues from 'lodash/mapValues';
 import keyBy from 'lodash/keyBy';
 
@@ -29,20 +29,20 @@ function useClickOutsideListener(ref: React.MutableRefObject<any>, handler: () =
 
 function resolveDocs(
     errorOccurrence: ErrorOccurrence,
-): null | { type: 'generic' | 'php' | 'quantaquirk'; url: string; tailored: boolean } {
-    if (!!errorOccurrence.context_items.env?.quantaquirk_version) {
-        const quantaquirkDocs = errorOccurrence.documentation_links.find((link) => link.startsWith('https://quantaquirk.com/'));
+): null | { type: 'generic' | 'php' | 'quantaforge'; url: string; tailored: boolean } {
+    if (!!errorOccurrence.context_items.env?.quantaforge_version) {
+        const quantaforgeDocs = errorOccurrence.documentation_links.find((link) => link.startsWith('https://quantaforge.com/'));
 
-        if (quantaquirkDocs) {
+        if (quantaforgeDocs) {
             return {
-                type: 'quantaquirk',
-                url: quantaquirkDocs,
+                type: 'quantaforge',
+                url: quantaforgeDocs,
                 tailored: true,
             };
         } else {
             return {
-                type: 'quantaquirk',
-                url: 'https://quantaquirk.com/docs/',
+                type: 'quantaforge',
+                url: 'https://quantaforge.com/docs/',
                 tailored: false,
             };
         }
@@ -136,7 +136,7 @@ export default function NavBar({ showException }: Props) {
                                     icon={
                                         <FontAwesomeIcon
                                             className="text-sm"
-                                            icon={docs.type === 'quantaquirk' ? faQuantaQuirk : faPhp}
+                                            icon={docs.type === 'quantaforge' ? faQuantaForge : faPhp}
                                         />
                                     }
                                     important={docs.tailored}

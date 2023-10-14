@@ -1,14 +1,14 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Solutions\OpenAi;
+namespace QuantaForge\Ignition\Solutions\OpenAi;
 
 use OpenAI;
 use Psr\SimpleCache\CacheInterface;
-use QuantaQuirk\Backtrace\Backtrace;
-use QuantaQuirk\Backtrace\Frame;
-use QuantaQuirk\Ignition\Contracts\Solution;
-use QuantaQuirk\Ignition\ErrorPage\Renderer;
-use QuantaQuirk\Ignition\Ignition;
+use QuantaForge\Backtrace\Backtrace;
+use QuantaForge\Backtrace\Frame;
+use QuantaForge\Ignition\Contracts\Solution;
+use QuantaForge\Ignition\ErrorPage\Renderer;
+use QuantaForge\Ignition\Ignition;
 use Throwable;
 
 class OpenAiSolution implements Solution

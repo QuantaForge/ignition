@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Config;
+namespace QuantaForge\Ignition\Config;
 
-use QuantaQuirk\Contracts\Support\Arrayable;
-use QuantaQuirk\Ignition\Contracts\ConfigManager;
+use QuantaForge\Contracts\Support\Arrayable;
+use QuantaForge\Ignition\Contracts\ConfigManager;
 use Throwable;
 
 /** @implements Arrayable<string, string|null|bool|array<string, mixed>> */

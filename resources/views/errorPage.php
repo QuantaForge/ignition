@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php /** @var \QuantaQuirk\Ignition\ErrorPage\ErrorPageViewModel $viewModel */ ?>
+<?php /** @var \QuantaForge\Ignition\ErrorPage\ErrorPageViewModel $viewModel */ ?>
 <html lang="en" class="<?= $viewModel->theme() ?>">
 <!--
 <?= $viewModel->throwableString() ?>

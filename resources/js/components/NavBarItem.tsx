@@ -18,7 +18,7 @@ export default function NavBarItem({
     name,
     href = null,
     icon,
-    iconOpacity = 'opacity-50', // Allow optical corrections, eg. the thin QuantaQuirk icon
+    iconOpacity = 'opacity-50', // Allow optical corrections, eg. the thin QuantaForge icon
     important = false,
     children = null,
     onClick = null,

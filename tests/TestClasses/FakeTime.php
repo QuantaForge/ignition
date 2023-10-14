@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Tests\TestClasses;
+namespace QuantaForge\Ignition\Tests\TestClasses;
 
 use DateTimeImmutable;
-use QuantaQuirk\FlareClient\Time\Time;
+use QuantaForge\FlareClient\Time\Time;
 
 class FakeTime implements Time
 {

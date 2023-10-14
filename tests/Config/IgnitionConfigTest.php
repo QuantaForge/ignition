@@ -2,8 +2,8 @@
 
 require_once __DIR__ . '/helpers.php';
 
-use QuantaQuirk\Ignition\Config\FileConfigManager;
-use QuantaQuirk\Ignition\Config\IgnitionConfig;
+use QuantaForge\Ignition\Config\FileConfigManager;
+use QuantaForge\Ignition\Config\IgnitionConfig;
 
 afterEach(function () {
     removeTempSettingsFile();

@@ -63,9 +63,9 @@ export type IgnitionErrorOccurrence = {
         } | null;
         user?: Record<string, any> | null;
         env?: {
-            quantaquirk_version?: string;
-            quantaquirk_locale?: string;
-            quantaquirk_config_cached?: boolean;
+            quantaforge_version?: string;
+            quantaforge_locale?: string;
+            quantaforge_config_cached?: boolean;
             app_debug?: boolean;
             app_env?: string;
             php_version?: string;

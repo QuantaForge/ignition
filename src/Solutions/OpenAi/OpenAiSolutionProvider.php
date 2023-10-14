@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Solutions\OpenAi;
+namespace QuantaForge\Ignition\Solutions\OpenAi;
 
 use Psr\SimpleCache\CacheInterface;
-use QuantaQuirk\Ignition\Contracts\HasSolutionsForThrowable;
+use QuantaForge\Ignition\Contracts\HasSolutionsForThrowable;
 use Throwable;
 
 class OpenAiSolutionProvider implements HasSolutionsForThrowable

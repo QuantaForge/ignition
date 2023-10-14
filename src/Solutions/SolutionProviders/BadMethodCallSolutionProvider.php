@@ -1,13 +1,13 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Solutions\SolutionProviders;
+namespace QuantaForge\Ignition\Solutions\SolutionProviders;
 
 use BadMethodCallException;
-use QuantaQuirk\Support\Collection;
+use QuantaForge\Support\Collection;
 use ReflectionClass;
 use ReflectionMethod;
-use QuantaQuirk\Ignition\Contracts\BaseSolution;
-use QuantaQuirk\Ignition\Contracts\HasSolutionsForThrowable;
+use QuantaForge\Ignition\Contracts\BaseSolution;
+use QuantaForge\Ignition\Contracts\HasSolutionsForThrowable;
 use Throwable;
 
 class BadMethodCallSolutionProvider implements HasSolutionsForThrowable
@@ -87,7 +87,7 @@ class BadMethodCallSolutionProvider implements HasSolutionsForThrowable
     /**
      * @param class-string $class
      *
-     * @return \QuantaQuirk\Support\Collection<int, ReflectionMethod>
+     * @return \QuantaForge\Support\Collection<int, ReflectionMethod>
      */
     protected function getAvailableMethods(string $class): Collection
     {

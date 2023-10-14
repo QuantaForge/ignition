@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Tests\TestClasses\SolutionProviders;
+namespace QuantaForge\Ignition\Tests\TestClasses\SolutionProviders;
 
-use QuantaQuirk\Ignition\Contracts\BaseSolution;
-use QuantaQuirk\Ignition\Contracts\HasSolutionsForThrowable;
+use QuantaForge\Ignition\Contracts\BaseSolution;
+use QuantaForge\Ignition\Contracts\HasSolutionsForThrowable;
 use Throwable;
 
 class AlwaysTrueSolutionProvider implements HasSolutionsForThrowable

@@ -1,10 +1,10 @@
 {
-    "name" : "quantaquirk/ignition",
+    "name" : "quantaforge/ignition",
     "description" : "A beautiful error page for PHP applications.",
     "keywords" : [
         "error",
         "page",
-        "quantaquirk",
+        "quantaforge",
         "flare"
     ],
     "license": "proprietary",
@@ -18,13 +18,13 @@
         "php": "^8.1",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "quantaquirk/backtrace": "^1.0.0",
-        "quantaquirk/flare-client-php": "^1.0.0",
+        "quantaforge/backtrace": "^1.0.0",
+        "quantaforge/flare-client-php": "^1.0.0",
         "symfony/console": "^5.4|^6.0",
         "symfony/var-dumper": "^5.4|^6.0"
     },
     "require-dev" : {
-        "quantaquirk/cache" : "^1.0.0",
+        "quantaforge/cache" : "^1.0.0",
         "mockery/mockery" : "^1.4",
         "pestphp/pest" : "^1.20",
         "phpstan/extension-installer" : "^1.1",
@@ -49,12 +49,12 @@
     },
     "autoload" : {
         "psr-4" : {
-            "QuantaQuirk\\Ignition\\" : "src"
+            "QuantaForge\\Ignition\\" : "src"
         }
     },
     "autoload-dev" : {
         "psr-4" : {
-            "QuantaQuirk\\Ignition\\Tests\\" : "tests"
+            "QuantaForge\\Ignition\\Tests\\" : "tests"
         }
     },
     "minimum-stability" : "dev",
@@ -67,10 +67,10 @@
         "test-coverage" : "vendor/bin/phpunit --coverage-html coverage"
     },
     "support" : {
-        "issues" : "https://github.com/quantaquirk/ignition/issues",
+        "issues" : "https://github.com/quantaforge/ignition/issues",
         "forum" : "https://twitter.com/flareappio",
-        "source" : "https://github.com/quantaquirk/ignition",
-        "docs" : "https://flareapp.io/docs/ignition-for-quantaquirk/introduction"
+        "source" : "https://github.com/quantaforge/ignition",
+        "docs" : "https://flareapp.io/docs/ignition-for-quantaforge/introduction"
     },
     "extra" : {
         "branch-alias" : {

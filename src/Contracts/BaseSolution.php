@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Contracts;
+namespace QuantaForge\Ignition\Contracts;
 
 class BaseSolution implements Solution
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Solutions\OpenAi;
+namespace QuantaForge\Ignition\Solutions\OpenAi;
 
 class OpenAiSolutionResponse
 {

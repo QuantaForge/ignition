@@ -2,9 +2,9 @@
 
 use Dotenv\Dotenv;
 use OpenAI\Client;
-use QuantaQuirk\FlareClient\Glows\Glow;
-use QuantaQuirk\FlareClient\Report;
-use QuantaQuirk\Ignition\Tests\TestClasses\FakeTime;
+use QuantaForge\FlareClient\Glows\Glow;
+use QuantaForge\FlareClient\Report;
+use QuantaForge\Ignition\Tests\TestClasses\FakeTime;
 
 if (file_exists(__DIR__ . '/../.env')) {
     $dotEnv = Dotenv::createImmutable(__DIR__ . '/..');

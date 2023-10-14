@@ -1,4 +1,4 @@
-<?php /** @var \QuantaQuirk\Ignition\Solutions\OpenAi\OpenAiPromptViewModel $viewModel */ ?>
+<?php /** @var \QuantaForge\Ignition\Solutions\OpenAi\OpenAiPromptViewModel $viewModel */ ?>
 
 You are a very skilled PHP programmer.
 

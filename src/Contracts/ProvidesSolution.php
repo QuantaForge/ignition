@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Contracts;
+namespace QuantaForge\Ignition\Contracts;
 
 /**
  * Interface to be used on exceptions that provide their own solution.

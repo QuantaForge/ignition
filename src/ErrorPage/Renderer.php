@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Ignition\ErrorPage;
+namespace QuantaForge\Ignition\ErrorPage;
 
 class Renderer
 {

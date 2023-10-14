@@ -1,6 +1,6 @@
 <?php
 
-use QuantaQuirk\Ignition\Ignition;
+use QuantaForge\Ignition\Ignition;
 
 include('../../../vendor/autoload.php');
 

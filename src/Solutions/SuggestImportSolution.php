@@ -1,8 +1,8 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Solutions;
+namespace QuantaForge\Ignition\Solutions;
 
-use QuantaQuirk\Ignition\Contracts\Solution;
+use QuantaForge\Ignition\Contracts\Solution;
 
 class SuggestImportSolution implements Solution
 {

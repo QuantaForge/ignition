@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Solutions;
+namespace QuantaForge\Ignition\Solutions;
 
-use QuantaQuirk\Contracts\Support\Arrayable;
-use QuantaQuirk\Ignition\Contracts\Solution;
+use QuantaForge\Contracts\Support\Arrayable;
+use QuantaForge\Ignition\Contracts\Solution;
 
 /** @implements Arrayable<string, array<string,string>|string|false> */
 class SolutionTransformer implements Arrayable

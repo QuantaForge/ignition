@@ -1,11 +1,11 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Tests\Solutions;
+namespace QuantaForge\Ignition\Tests\Solutions;
 
 use Exception;
-use QuantaQuirk\Cache\ArrayStore;
-use QuantaQuirk\Cache\Repository;
-use QuantaQuirk\Ignition\Solutions\OpenAi\OpenAiSolutionProvider;
+use QuantaForge\Cache\ArrayStore;
+use QuantaForge\Cache\Repository;
+use QuantaForge\Ignition\Solutions\OpenAi\OpenAiSolutionProvider;
 
 it('can solve an an exception using ai', function () {
     if (! canRunOpenAiTest()) {

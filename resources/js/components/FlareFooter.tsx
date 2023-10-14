@@ -13,7 +13,7 @@ export default function FlareFooter() {
                         </h2>
                         <p className="mt-6 max-w-xl text-lg leading-8 text-gray-300">
                             Start tracking errors in your application within minutes with Flare.<br/>
-                            Flare provides exceptional error monitoring designed specifically for QuantaQuirk applications.
+                            Flare provides exceptional error monitoring designed specifically for QuantaForge applications.
                         </p>
                         <div className="mt-10 flex flex-wrap items-center justify-start gap-x-6">
                             <a

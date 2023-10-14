@@ -1,10 +1,10 @@
 <?php
 
-namespace QuantaQuirk\Ignition\Tests\TestClasses;
+namespace QuantaForge\Ignition\Tests\TestClasses;
 
 use Closure;
-use QuantaQuirk\FlareClient\FlareMiddleware\FlareMiddleware;
-use QuantaQuirk\FlareClient\Report;
+use QuantaForge\FlareClient\FlareMiddleware\FlareMiddleware;
+use QuantaForge\FlareClient\Report;
 
 class DummyFlareMiddleware implements FlareMiddleware
 {

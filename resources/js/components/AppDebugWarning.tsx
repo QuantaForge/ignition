@@ -30,7 +30,7 @@ export default function AppDebugWarning() {
                     <a
                         className="mt-1.5 underline inline-flex items-center gap-2"
                         target="_blank"
-                        href="https://flareapp.io/docs/ignition-for-quantaquirk/security"
+                        href="https://flareapp.io/docs/ignition-for-quantaforge/security"
                     >
                         <FontAwesomeIcon icon={faShieldAlt} className="text-sm opacity-50" />
                         Read more about Ignition security

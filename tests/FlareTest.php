@@ -1,14 +1,14 @@
 <?php
 
-use QuantaQuirk\Backtrace\Arguments\ArgumentReducers;
-use QuantaQuirk\Backtrace\Arguments\ReducedArgument\ReducedArgument;
-use QuantaQuirk\Backtrace\Arguments\ReducedArgument\ReducedArgumentContract;
-use QuantaQuirk\Backtrace\Arguments\Reducers\ArgumentReducer;
-use QuantaQuirk\FlareClient\Flare;
-use QuantaQuirk\FlareClient\Http\Client;
-use QuantaQuirk\Ignition\Ignition;
-use QuantaQuirk\Ignition\Tests\Mocks\FakeFlare;
-use QuantaQuirk\Ignition\Tests\TestClasses\TraceArguments;
+use QuantaForge\Backtrace\Arguments\ArgumentReducers;
+use QuantaForge\Backtrace\Arguments\ReducedArgument\ReducedArgument;
+use QuantaForge\Backtrace\Arguments\ReducedArgument\ReducedArgumentContract;
+use QuantaForge\Backtrace\Arguments\Reducers\ArgumentReducer;
+use QuantaForge\FlareClient\Flare;
+use QuantaForge\FlareClient\Http\Client;
+use QuantaForge\Ignition\Ignition;
+use QuantaForge\Ignition\Tests\Mocks\FakeFlare;
+use QuantaForge\Ignition\Tests\TestClasses\TraceArguments;
 
 beforeEach(function () {
     ini_set('zend.exception_ignore_args', 0); // Enabled on GH actions
